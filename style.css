@@ -1,4 +1,13 @@
-head {
-  background-color: brown;
-  background-position: 0in;
+.hero {
+  background-color: orange;
+  background-position: 0% 0%;
+  background-size: middle;
+  height: 80vh;
+  justify-content: flex-start;
+  display: flex;
+  color: rgb(14, 13, 13);
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40;
 }
