@@ -1,5 +1,5 @@
 .hero {
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0) 20%,
       rgba(0, 0, 0, 0) 80%,
@@ -15,9 +15,9 @@
   padding: 10px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px;
-}
-/* background-color: rgb(216, 25, 73);
+  padding-bottom: 40px; */
+
+  background-color: rgb(216, 25, 73);
   background-position: 0% 0%;
   background-size: middle;
   height: 80vh;
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 40;
-} */
+}
 nav {
   width: 100%;
   height: 100px;
