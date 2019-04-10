@@ -36,6 +36,27 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+nav li {
+  list-style: none;
+}
+
+nav a {
+  color: white;
+}
+
+nav svg {
+  display: none;
+}
+
+.page-container {
+  padding: 80px 0;
+}
+
+@media (max-width: 600px) {
+  nav svg {
+    display: flex;
+  }
+}
 
 /* Footer */
 
