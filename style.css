@@ -1,4 +1,4 @@
-.hero {
+.jumbotron {
   /* background-image: linear-gradient(
       rgba(0, 0, 0, 0.7) 0%,
       rgba(0, 0, 0, 0) 20%,
@@ -486,4 +486,9 @@ p {
   .msg {
     width: 100%;
   }
+}
+
+.logo {
+  margin-left: 75px;
+  margin-right: 75px;
 }
