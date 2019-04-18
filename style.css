@@ -493,3 +493,83 @@ p {
   margin-left: 75px;
   margin-right: 75px;
 }
+
+/***********Mobile Menu*********/
+#mobile-menu {
+  display: none;
+  position: fixed;
+  width: 200px;
+  height: 400px;
+  transition: 2s;
+  background: #8b8585;
+  top: 128px;
+  right: -150px;
+}
+#mobile-menu.active {
+  display: block;
+  right: 0px;
+}
+#mobile-menu ul {
+  padding: 5px;
+}
+#mobile-menu ul li {
+  list-style: none;
+  padding: 10px 10px;
+  border-bottom: 1px solid white;
+}
+#mobile-menu a {
+  text-transform: uppercase;
+  color: white;
+}
+#hamburger-icon {
+  display: none;
+  background: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  #mobile-menu {
+    right: 0px;
+  }
+  #hamburger-icon {
+    display: block;
+  }
+}
+@media screen and (min-width: 991px) {
+  #mobile-menu.active {
+    display: none;
+  }
+}
+
+.site-content {
+  background-image: url("images/ben-kolde-367194-unsplash.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.site-title,
+.site-desc {
+  color: white;
+  font-family: "Righteous;";
+}
+.site-title {
+  margin-top: 30%;
+  margin-bottom: 6%;
+  font-size: 50px;
+}
+.site-desc {
+  font-size: 14px;
+  padding-left: 15%;
+}
+.site-btn1 {
+  margin-left: 20%;
+  background-color: black;
+  color: white;
+}
+.site-btn2 {
+  background-color: white;
+}
+.site-btn1,
+.site-btn2 {
+  margin-top: 5%;
+  margin-bottom: 40%;
+}
