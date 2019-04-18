@@ -95,6 +95,7 @@ nav svg {
 }
 #about .p-first {
   margin-bottom: 30px;
+  color: black;
 }
 #about h2 {
   margin-bottom: 10px;
@@ -147,7 +148,7 @@ nav svg {
   color: #3498db;
 }
 .text-white {
-  color: white;
+  color: black;
 }
 p {
   margin-bottom: 0;
