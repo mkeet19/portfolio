@@ -97,6 +97,9 @@ nav svg {
   margin-bottom: 30px;
   color: black;
 }
+#about .color-white {
+  color: black;
+}
 #about h2 {
   margin-bottom: 10px;
   margin-top: 10px;
